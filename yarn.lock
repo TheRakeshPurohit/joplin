@@ -9284,7 +9284,7 @@ __metadata:
     react-native-fs: "npm:2.20.0"
     react-native-get-random-values: "npm:1.11.0"
     react-native-image-picker: "npm:8.2.1"
-    react-native-localize: "npm:3.4.1"
+    react-native-localize: "npm:3.4.2"
     react-native-modal-datetime-picker: "npm:18.0.0"
     react-native-paper: "npm:5.14.5"
     react-native-popup-menu: "npm:0.17.0"
@@ -9747,7 +9747,7 @@ __metadata:
     node-os-utils: "npm:1.3.7"
     nodemailer: "npm:6.10.1"
     nodemon: "npm:3.1.10"
-    pg: "npm:8.16.2"
+    pg: "npm:8.16.3"
     pretty-bytes: "npm:5.6.0"
     prettycron: "npm:0.10.0"
     query-string: "npm:7.1.3"
@@ -39425,7 +39425,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg-cloudflare@npm:^1.2.6, pg-cloudflare@npm:^1.2.7":
+"pg-cloudflare@npm:^1.2.7":
   version: 1.2.7
   resolution: "pg-cloudflare@npm:1.2.7"
   checksum: 10/3d171407cbce36436c461200666ba6bd884bfe98016972760a797cec850199b8024a40055d80322c5fc02909e1533a144e9b108a99f7d7e21d0c42612f9821fb
@@ -39469,7 +39469,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg-protocol@npm:^1.10.2, pg-protocol@npm:^1.10.3":
+"pg-protocol@npm:^1.10.3":
   version: 1.10.3
   resolution: "pg-protocol@npm:1.10.3"
   checksum: 10/31da85319084c03f403efee7accce9786964df82a7feb60e6bd77b71f1e622c74a2a644a2bc434389d0ab92e5abdeedea69ebdb53b1897d9f01d2a1f51a8a2fe
@@ -39489,29 +39489,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg@npm:8.16.2":
-  version: 8.16.2
-  resolution: "pg@npm:8.16.2"
-  dependencies:
-    pg-cloudflare: "npm:^1.2.6"
-    pg-connection-string: "npm:^2.9.1"
-    pg-pool: "npm:^3.10.1"
-    pg-protocol: "npm:^1.10.2"
-    pg-types: "npm:2.2.0"
-    pgpass: "npm:1.0.5"
-  peerDependencies:
-    pg-native: ">=3.0.1"
-  dependenciesMeta:
-    pg-cloudflare:
-      optional: true
-  peerDependenciesMeta:
-    pg-native:
-      optional: true
-  checksum: 10/e34056b3758e996cf24635412e62c4d44ac2fd41f1e389a0dc0346b9965d0dc763e4f72d30d4de497d2b3495ee0ec44c39e930ec464aa4622db257895955e184
-  languageName: node
-  linkType: hard
-
-"pg@npm:^8.14.1":
+"pg@npm:8.16.3, pg@npm:^8.14.1":
   version: 8.16.3
   resolution: "pg@npm:8.16.3"
   dependencies:
@@ -41763,9 +41741,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-localize@npm:3.4.1":
-  version: 3.4.1
-  resolution: "react-native-localize@npm:3.4.1"
+"react-native-localize@npm:3.4.2":
+  version: 3.4.2
+  resolution: "react-native-localize@npm:3.4.2"
   peerDependencies:
     react: ">=18.1.0"
     react-native: ">=0.70.0"
@@ -41773,7 +41751,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-macos:
       optional: true
-  checksum: 10/a923cfa14eea910a85cb8e3fe02a9f8b4d527910559b97db189ad89b3178c98a0169c959e8355ebb99971b7c848a76f6f5a88ab735db89ef19095b282ee77950
+  checksum: 10/c1d5292725e2c8c8626a0760e933f1938deb08e32ebce5134e4247ebf3e504434cce185ab81698b655f8a980c2e736ac3aee1902048d444ebd83bda01cb8febe
   languageName: node
   linkType: hard
 
